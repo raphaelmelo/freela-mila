@@ -19,6 +19,8 @@ function Home() {
           <title>Mila - Produtos de limpeza, descartáveis, embalagens e mais </title>
           <meta name="description" content="Aqui na Mila, você encontra produtos de qualidade e preço justo, nosso delivery entrega em toda cidade de Guarujá."/>
           <link rel="icon" href="/icon/favicon.ico"/>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-72FQ1986WY"></script>
+ 
         </Head>
 
         <ActionButton />

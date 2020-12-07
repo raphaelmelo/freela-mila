@@ -2,6 +2,7 @@ import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 
+const GACODE = "G-72FQ1986WY";
 export default class MyDocument extends Document {
   render() {
     return (
@@ -11,7 +12,9 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=${YOUR_TRACKING_ID}"></script>
+      
+ 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=${GACODE}"></script>
           <script
             async
             dangerouslySetInnerHTML={{
@@ -19,9 +22,12 @@ export default class MyDocument extends Document {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', G-72FQ1986WY);`
+              gtag('config', ${GACODE});`
             }}
-          />        
+          />
+
+ 
+
         </Head>
         <body>
           <Main />

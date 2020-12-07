@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           />
       
  
-ga tracker      <script async src="https://www.googletagmanager.com/gtag/js?id=G-72FQ1986WY"></script>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-72FQ1986WY"></script>
           <script
             async
             dangerouslySetInnerHTML={{
